@@ -1,0 +1,208 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-gold-light: #f5d485;
+  --color-gold: #d4af37;
+  --color-gold-dark: #a8892b;
+  --color-black-light: #252525;
+  --color-black: #121212;
+  --color-black-dark: #080808;
+  --color-white: #ffffff;
+  --color-gray-light: #f9f9f9;
+  --color-gray: #888888;
+  --color-gray-dark: #444444;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--color-gray-light);
+  background-color: var(--color-black);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+/* Custom utility classes */
+.text-gold {
+  color: var(--color-gold);
+}
+
+.bg-gold {
+  background-color: var(--color-gold);
+}
+
+.border-gold {
+  border-color: var(--color-gold);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, var(--color-gold-light), var(--color-gold), var(--color-gold-dark));
+}
+
+.gold-text-shadow {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+}
+
+.black-gradient {
+  background: linear-gradient(135deg, var(--color-black-light), var(--color-black), var(--color-black-dark));
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+}
+
+.container-custom {
+  @apply container mx-auto px-4 md:px-8 lg:px-16;
+}
+
+.service-card {
+  @apply relative overflow-hidden rounded-lg transition-all duration-500 transform hover:scale-105 hover:shadow-xl;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(212, 175, 55, 0.1);
+  background: linear-gradient(145deg, rgba(18, 18, 18, 0.95), rgba(37, 37, 37, 0.85));
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+.service-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-md transition-all duration-300;
+  background: linear-gradient(to right, var(--color-gold-dark), var(--color-gold), var(--color-gold-light));
+  color: var(--color-black);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center px-6 py-3 text-base font-medium rounded-md transition-all duration-300 border-2;
+  background: transparent;
+  color: var(--color-gold);
+  border-color: var(--color-gold);
+}
+
+.btn-outline:hover {
+  background: rgba(212, 175, 55, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.2);
+}
+
+.animated-border {
+  position: relative;
+}
+
+.animated-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, var(--color-gold), transparent);
+  animation: borderAnimation 4s ease-in-out infinite;
+}
+
+@keyframes borderAnimation {
+  0%, 100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* For slick carousel */
+.slick-dots li button:before {
+  color: var(--color-gold) !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: var(--color-gold) !important;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+.mobile-menu.closed {
+  transform: translateX(100%);
+}
+
+/* Whatsapp button animation */
+.whatsapp-btn {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}

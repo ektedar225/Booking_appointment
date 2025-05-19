@@ -1,0 +1,163 @@
+{
+  "loading": "Loading...",
+  "siteTitle": "Hind Tabreed - Premium Appliance Repair Services in Riyadh",
+  "siteDescription": "Premium appliance repair services in Riyadh. AC, refrigerator, washing machine, heater, and fan repair by Hind Tabreed. Book an appointment today!",
+  
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "pricing": "Pricing",
+    "testimonials": "Reviews",
+    "appointment": "Book Now",
+    "contact": "Contact"
+  },
+  
+  "hero": {
+    "title": "Premium Appliance Repair Services",
+    "subtitle": "Expert Repair & Maintenance In Riyadh",
+    "cta": "Book an Appointment",
+    "scroll": "Scroll Down"
+  },
+  
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Expert Repair Solutions For All Your Appliances",
+    "ac": {
+      "title": "AC Repair & Maintenance",
+      "description": "Complete air conditioning services including installation, repair, and regular maintenance to keep your home cool and comfortable."
+    },
+    "refrigerator": {
+      "title": "Refrigerator Repair",
+      "description": "Expert diagnosis and repair for all refrigerator brands and models, ensuring your food stays fresh and your appliance runs efficiently."
+    },
+    "washingMachine": {
+      "title": "Washing Machine Repair",
+      "description": "From water leaks to spin cycle issues, our technicians can fix all types of washing machine problems quickly and effectively."
+    },
+    "heater": {
+      "title": "Heater Repair",
+      "description": "Professional water heater and space heater repair services to ensure your comfort during colder months."
+    },
+    "fan": {
+      "title": "Fan Repair",
+      "description": "Repair services for ceiling fans, standing fans, and exhaust fans to keep your home well-ventilated."
+    },
+    "emergency": {
+      "title": "Emergency Services",
+      "description": "24/7 emergency repair services for critical appliance breakdowns."
+    }
+  },
+  
+  "about": {
+    "title": "About Hind Tabreed",
+    "subtitle": "Premium Appliance Repair Since 1989",
+    "description1": "At Hind Tabreed, we pride ourselves on providing premium appliance repair services to households across Riyadh. With over a decade of experience, our team of certified technicians delivers expert solutions for all your appliance needs.",
+    "description2": "We understand the inconvenience of malfunctioning appliances, which is why we offer prompt, reliable, and affordable repair services. Our commitment to excellence and customer satisfaction has made us the preferred choice for appliance repairs in Riyadh.",
+    "values": {
+      "title": "Our Values",
+      "quality": "Quality Service",
+      "reliability": "Reliability",
+      "transparency": "Transparency",
+      "expertise": "Technical Expertise"
+    },
+    "stats": {
+      "years": "40+ Years Experience",
+      "technicians": "Certified Technicians",
+      "customers": "10,000+ Happy Customers",
+      "guarantee": "30-Day Service Guarantee"
+    }
+  },
+  
+  "pricing": {
+    "title": "Our Pricing",
+    "subtitle": "Transparent & Competitive Rates",
+    "consultation": "Service Consultation",
+    "basic": "Basic Service",
+    "standard": "Standard Service",
+    "premium": "Premium Service",
+    "sar": "SAR",
+    "includes": "Includes",
+    "diagnosis": "Diagnosis",
+    "repair": "Repair",
+    "parts": "Parts Replacement",
+    "guarantee": "Service Guarantee",
+    "maintenance": "Maintenance Tips",
+    "cta": "Book Now",
+    "note": "* Additional charges may apply depending on the complexity of the repair and required parts."
+  },
+  
+  "testimonials": {
+    "title": "Customer Reviews",
+    "subtitle": "What Our Clients Say",
+    "leaveReview": "Leave a Review",
+    "rating": "Rating",
+    "submit": "Submit Review",
+    "reviews": [
+  { "name": "Ayesha S.", "date": "April 2, 2015", "comment": "Very fast and reliable service. Highly recommended for AC repairs in Riyadh!", "rating": 5 },
+  { "name": "Omar R.", "date": "March 20, 2025", "comment": "Professional and friendly staff. My washing machine works like new!", "rating": 5 },
+  { "name": "Fatima H.", "date": "March 5, 2022", "comment": "Excellent customer support and quick response time. Will use again.", "rating": 4 },
+  { "name": "Khalid M.", "date": "February 18, 2024", "comment": "Affordable prices and top-notch repair quality. Thank you!", "rating": 5 },
+  { "name": "Layla .", "date": "January 30, 2025", "comment": "The technician explained everything clearly and fixed my refrigerator perfectly.", "rating": 5 },
+  { "name": "Aiza .", "date": "May 05, 2025", "comment": "Cheapest services in Riyadh.", "rating": 4 },
+  { "name": "Noura K.", "date": "April 10, 2024", "comment": "Quick appointment scheduling and prompt service. Will recommend to family.", "rating": 5 },
+  { "name": "Salman D.", "date": "March 12, 2023", "comment": "My AC is working perfectly now. Great job!", "rating": 5 },
+  { "name": "Zara L.", "date": "February 5, 2024", "comment": "Technicians arrived on time and did a clean job. Appreciate the professionalism.", "rating": 5 },
+  { "name": "Yusuf B.", "date": "January 15, 2025", "comment": "Good service, but price is very low.", "rating": 3 },
+  { "name": "Mariam S.", "date": "December 21, 2024", "comment": "Highly satisfied. Very polite team and accurate problem diagnosis.", "rating": 5 },
+  { "name": "Rehan T.", "date": "November 9, 2023", "comment": "Fair pricing and reliable staff. Happy with the repair quality.", "rating": 4 },
+  { "name": "Iman J.", "date": "October 2, 2022", "comment": "They fixed my microwave in under 30 minutes. Impressive!", "rating": 5 },
+  { "name": "Tariq A.", "date": "September 25, 2023", "comment": "Affordable but slightly delayed service. Still worth it.", "rating": 4 },
+  { "name": "Rania G.", "date": "August 14, 2024", "comment": "Clear communication and timely service. Will call again.", "rating": 5 },
+  { "name": "Mohammed Z.", "date": "July 3, 2024", "comment": "Technician was knowledgeable and courteous. AC cooling well now.", "rating": 5 },
+  { "name": "Dania E.", "date": "June 10, 2023", "comment": "Customer care followed up after the repair. Great service!", "rating": 5 },
+  { "name": "Sami H.", "date": "May 29, 2024", "comment": "They helped me fix my oven quickly. Thank you!", "rating": 4 },
+  { "name": "Noor F.", "date": "April 18, 2025", "comment": "Friendly team, great service, very reasonable pricing.", "rating": 5 },
+  { "name": "Aliya M.", "date": "March 1, 2024", "comment": "Smooth experience. Booking to service was hassle-free.", "rating": 5 }
+
+    ]
+  },
+  
+  "appointment": {
+    "title": "Book an Appointment",
+    "subtitle": "Schedule Your Service Today",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "service": "Service Type",
+    "date": "Preferred Date",
+    "time": "Preferred Time",
+    "message": "Problem Description",
+    "submit": "Book via WhatsApp",
+    "note": "Our technician will confirm your appointment via WhatsApp"
+  },
+  
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're Here to Help",
+    "address": "Riyadh, Saudi Arabia",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "hours": "Working Hours",
+    "workdays": "Saturday - Thursday",
+    "worktime": "8:00 AM - 10:00 PM",
+    "friday": "Friday",
+    "fridaytime": "2:00 PM - 10:00 PM"
+  },
+  
+  "footer": {
+    "rights": "© 2025 Hind Tabreed. All Rights Reserved.",
+    "services": "Services",
+    "companyInfo": "Company Information",
+    "legal": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  
+  "whatsapp": {
+    "message": "Chat with us"
+  },
+  
+  "language": {
+    "english": "English",
+    "arabic": "العربية"
+  }
+}
